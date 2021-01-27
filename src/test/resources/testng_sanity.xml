@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automtion regression suite" verbose="1">
+
+<listeners>
+		 <listener
+			class-name="com.qa.wildcart.testlisteners.ExtentReportListener" />
+		<!--<listener
+			class-name="com.qa.multicart.testlisteners.pdfListener" /> -->
+	
+	  <!--	<listener
+			class-name="com.qa.multicart.testlisteners.TestAllureListener" />
+
+			 <listener
+			class-name="com.qa.multicart.testlisteners.TesultsListener" /> -->
+</listeners>
+
+
+	<test name="Wildcart Login Testing -">
+		<classes>
+			<class name="com.mytest.LoginPageTest" />
+		</classes>
+	</test>
+ 
+	 <test name="Multicart homepage Testing">
+		<classes>
+			<class name="com.mytest.HomePageTest" />
+		</classes>
+	</test> 
+	
+	
+	
+	
+	
+	<!--  <test name="multicart contacts Testing">
+		<classes>
+		<class name="com.qa.multicart.tests.ContactsPageTest" />
+		</classes>
+	</test> --> 
+	
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Wild Cart automtion sanity suite" verbose="1">
+
+	<test name="Wild Cart Login Testing -">
+		<classes>
+			<class name="com.qa.wildcart.test.LoginPageTest" />
+		</classes>
+	</test>
+ 
+	<test name="Wild Cart homepage Testing">
+		<classes>
+			<class name="com.qa.wildcart.test.HomePageTest" />
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+	<!--  <test name="Hub Spot contacts Testing">
+		<classes>
+		<class name="com.qa.hubspot.tests.ContactsPageTest" />
+		</classes>
+	</test> --> 
+	
+</suite>

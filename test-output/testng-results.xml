@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-27T03:08:04Z" name="CRMPRO Test automtion smoketest suite" finished-at="2021-01-27T03:08:11Z" duration-ms="6619">
+    <groups>
+    </groups>
+    <test started-at="2021-01-27T03:08:04Z" name="CRMPRO App Test - Chrome" finished-at="2021-01-27T03:08:11Z" duration-ms="6619">
+      <class name="com.mytest.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mytest.LoginPageTest@79ab34c1]" started-at="2021-01-27T03:08:04Z" name="setup" finished-at="2021-01-27T03:08:10Z" duration-ms="5372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getCRMTitleTest()[pri:0, instance:com.mytest.LoginPageTest@79ab34c1]" started-at="2021-01-27T03:08:10Z" name="getCRMTitleTest" finished-at="2021-01-27T03:08:10Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCRMTitleTest -->
+        <test-method signature="getCRMTitleTest1()[pri:0, instance:com.mytest.LoginPageTest@79ab34c1]" started-at="2021-01-27T03:08:10Z" name="getCRMTitleTest1" finished-at="2021-01-27T03:08:10Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCRMTitleTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytest.LoginPageTest@79ab34c1]" started-at="2021-01-27T03:08:10Z" name="tearDown" finished-at="2021-01-27T03:08:11Z" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytest.LoginPageTest -->
+    </test> <!-- CRMPRO App Test - Chrome -->
+  </suite> <!-- CRMPRO Test automtion smoketest suite -->
+</testng-results>

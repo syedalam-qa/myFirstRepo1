@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [WildCart Test automtion regression suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="tests" name="LoginPage Test_FF_80(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.wildcart.test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="verifyProdListCount"/>
+          <include name="verifyProdList"/>
+          <include name="homepagesetup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLoggedUserTest"/>
+        </methods>
+      </class> <!-- com.qa.wildcart.test.HomePageTest -->
+    </classes>
+  </test> <!-- LoginPage Test_FF_80(failed) -->
+  <test thread-count="6" parallel="tests" name="LoginPage Test_FF_83(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.wildcart.test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="verifyProdListCount"/>
+          <include name="verifyProdList"/>
+          <include name="homepagesetup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLoggedUserTest"/>
+        </methods>
+      </class> <!-- com.qa.wildcart.test.HomePageTest -->
+    </classes>
+  </test> <!-- LoginPage Test_FF_83(failed) -->
+</suite> <!-- Failed suite [WildCart Test automtion regression suite] -->

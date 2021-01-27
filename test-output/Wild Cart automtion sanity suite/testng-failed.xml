@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wild Cart automtion sanity suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Wild Cart Login Testing -(failed)">
+    <classes>
+      <class name="com.qa.wildcart.test.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="verifySignUpLinkTest"/>
+          <include name="verifyPageTitle"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.wildcart.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Wild Cart Login Testing -(failed) -->
+  <test thread-count="5" name="Wild Cart homepage Testing(failed)">
+    <classes>
+      <class name="com.qa.wildcart.test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="verifyProdListCount"/>
+          <include name="verifyProdList"/>
+          <include name="homepagesetup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyLoggedUserTest"/>
+        </methods>
+      </class> <!-- com.qa.wildcart.test.HomePageTest -->
+    </classes>
+  </test> <!-- Wild Cart homepage Testing(failed) -->
+</suite> <!-- Failed suite [Wild Cart automtion sanity suite] -->
